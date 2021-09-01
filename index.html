@@ -22,6 +22,629 @@
     <title>ISOC Zambia</title>
   </head>
   <body>
-    <div class="container"><p>Our server is undergoing maintenance. https://isoczambia.netlify.app will be back online shortly.</p></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/img/ISOC Logo_Light-RGB.png"
+            alt=""
+            width="100"
+            height="100%"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                href="#https://www.internetsociety.org/get-involved/"
+                target="new"
+                class="nav-link"
+                >Get Involved</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.internetsociety.org/resource-library/"
+                target="new"
+                class="nav-link"
+                >Resource Library</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://learning.internetsociety.org/"
+                target="new"
+                class="nav-link"
+                >Learn Online</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://admin.internetsociety.org/622619/User/Login"
+                target="new"
+                class="nav-link"
+                >Member Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              Internet Society
+              <span class="text-success"> Zambia</span
+              ><span class="text-warning"> Cha</span
+              ><span class="text-danger">pter</span>
+            </h1>
+            <p class="lead my-4">
+              You can help preserve the foundations on which the Internet was
+              built and join us in keeping it open, global and available to all.
+            </p>
+            <p>
+              We’re part of a global community that extend the Internet’s reach
+              and protect its long-term well-being.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Get in touch
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/showcase.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <img
+                    src="img/Iconography-Grants_arrow-Dark-RGB.png"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+                <h3 class="card-title mb-3">We help grow the Internet.</h3>
+                <p class="card-text">
+                  Nearly half the world’s population isn’t connected. We are
+                  committed to closing the digital divide by bringing together
+                  the people and technology needed to give everyone the access
+                  they want.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <div class="h1 mb-3">
+                    <img
+                      src="img/Iconography-Trust-Dark-RGB.png"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <h3 class="card-title mb-3">We make the Internet stronger.</h3>
+                <p class="card-text">
+                  We advocate for a secure, trusted and more resilient Internet.
+                  We defend the Internet from those who could make it less
+                  secure, less resilient, and less open.
+                </p>
+                <!-- <a href="#" class="btn btn-dark">Read More</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <div class="h1 mb-3">
+                    <img
+                      src="img/Iconography-Policy-Dark-RGB.png"
+                      class="img-fluid"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <h3 class="card-title mb-3">
+                  We shape the Internet of the future.
+                </h3>
+                <p class="card-text">
+                  We are a global movement that champions an Internet of hope,
+                  opportunity, and celebrates humanity. But Internet access is
+                  no longer a luxury. It is a virtual lifeline. Be part of the
+                  solution.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="img/girl-using-internet-on-mobile.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>The Internet is for everyone.</h2>
+            <p class="lead">
+              The Internet Society supports and promotes the development of the
+              Internet as a global technical infrastructure, a resource to
+              enrich people’s lives, and a force for good in society.
+            </p>
+            <p>
+              Our work aligns with our goals for the Internet to be open,
+              globally-connected, secure, and trustworthy. We seek collaboration
+              with all who share these goals.
+            </p>
+            <p></p>
+
+            <p>Together, we focus on:</p>
+
+            <ul>
+              <li>
+                Building and supporting the communities that make the Internet
+                work;
+              </li>
+              <li>
+                Advancing the development and application of Internet
+                infrastructure, technologies, and open standards; and
+              </li>
+              <li>
+                Advocating for policy that is consistent with our view of the
+                Internet
+              </li>
+            </ul>
+
+            <a
+              href="https://www.internetsociety.org/about-internet-society/"
+              target="new"
+              class="btn btn-light mt-3"
+            >
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>We Care About The Internet</h2>
+            <p class="lead">
+              We believe in a world where the Internet means opportunity. We
+              care about its future.
+            </p>
+            <p class="lead">
+              Together with our global community we extend the Internet’s reach
+              and protect its long-term well-being.
+            </p>
+            <!-- <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a> -->
+          </div>
+          <div class="col-md">
+            <img
+              src="img/Iconography-Multistakeholder-Dark-RGB.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="projects" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Projects in Brief</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                Community Networks
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                totam tempora accusamus modi explicabo accusantium consequatur,
+                praesentium rem quisquam molestias at quos vero. Officiis ad
+                velit doloremque at. Dignissimos praesentium necessitatibus
+                natus corrupti cum consequatur aliquam! Minima molestias iure
+                quam distinctio velit.
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                Donate-A-PC
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                totam tempora accusamus modi explicabo accusantium consequatur,
+                praesentium rem quisquam molestias at quos vero. Officiis ad
+                velit doloremque at. Dignissimos praesentium necessitatibus
+                natus corrupti cum consequatur aliquam! Minima molestias iure
+                quam distinctio velit.
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                Training of Trainers(ToT)
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                totam tempora accusamus modi explicabo accusantium consequatur,
+                praesentium rem quisquam molestias at quos vero. Officiis ad
+                velit doloremque at. Dignissimos praesentium necessitatibus
+                natus corrupti cum consequatur aliquam! Minima molestias iure
+                quam distinctio velit.
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                Measuring the Internet
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                beatae fuga animi distinctio perspiciatis adipisci velit maiores
+                totam tempora accusamus modi explicabo accusantium consequatur,
+                praesentium rem quisquam molestias at quos vero. Officiis ad
+                velit doloremque at. Dignissimos praesentium necessitatibus
+                natus corrupti cum consequatur aliquam! Minima molestias iure
+                quam distinctio velit.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Phone:</span> (+260) 978 210 494
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span> frontdesk@isoc.org.zm
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Physical Address:</span> Plot 16948B,
+                Thabo Mbeki Rd, Lusaka 10101
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">
+          Copyright &copy; 2021 Internet Society Zambia Chapter
+        </p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Send us a message.</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              id="JotFormIFrame-212431130799554"
+              title="Clone of General Inquiry Contact Form"
+              onload="window.parent.scrollTo(0,0)"
+              allowtransparency="true"
+              allowfullscreen="true"
+              allow="geolocation; microphone; camera"
+              src="https://form.jotform.com/212431130799554"
+              frameborder="0"
+              style="min-width: 100%; height: 539px; border: none"
+              scrolling="no"
+            >
+            </iframe>
+            <script type="text/javascript">
+              var ifr = document.getElementById(
+                "JotFormIFrame-212431130799554"
+              );
+              if (ifr) {
+                var src = ifr.src;
+                var iframeParams = [];
+                if (
+                  window.location.href &&
+                  window.location.href.indexOf("?") > -1
+                ) {
+                  iframeParams = iframeParams.concat(
+                    window.location.href
+                      .substr(window.location.href.indexOf("?") + 1)
+                      .split("&")
+                  );
+                }
+                if (src && src.indexOf("?") > -1) {
+                  iframeParams = iframeParams.concat(
+                    src.substr(src.indexOf("?") + 1).split("&")
+                  );
+                  src = src.substr(0, src.indexOf("?"));
+                }
+                iframeParams.push("isIframeEmbed=1");
+                ifr.src = src + "?" + iframeParams.join("&");
+              }
+              window.handleIFrameMessage = function (e) {
+                if (typeof e.data === "object") {
+                  return;
+                }
+                var args = e.data.split(":");
+                if (args.length > 2) {
+                  iframe = document.getElementById(
+                    "JotFormIFrame-" + args[args.length - 1]
+                  );
+                } else {
+                  iframe = document.getElementById("JotFormIFrame");
+                }
+                if (!iframe) {
+                  return;
+                }
+                switch (args[0]) {
+                  case "scrollIntoView":
+                    iframe.scrollIntoView();
+                    break;
+                  case "setHeight":
+                    iframe.style.height = args[1] + "px";
+                    break;
+                  case "collapseErrorPage":
+                    if (iframe.clientHeight > window.innerHeight) {
+                      iframe.style.height = window.innerHeight + "px";
+                    }
+                    break;
+                  case "reloadPage":
+                    window.location.reload();
+                    break;
+                  case "loadScript":
+                    if (
+                      !window.isPermitted(e.origin, [
+                        "jotform.com",
+                        "jotform.pro",
+                      ])
+                    ) {
+                      break;
+                    }
+                    var src = args[1];
+                    if (args.length > 3) {
+                      src = args[1] + ":" + args[2];
+                    }
+                    var script = document.createElement("script");
+                    script.src = src;
+                    script.type = "text/javascript";
+                    document.body.appendChild(script);
+                    break;
+                  case "exitFullscreen":
+                    if (window.document.exitFullscreen)
+                      window.document.exitFullscreen();
+                    else if (window.document.mozCancelFullScreen)
+                      window.document.mozCancelFullScreen();
+                    else if (window.document.mozCancelFullscreen)
+                      window.document.mozCancelFullScreen();
+                    else if (window.document.webkitExitFullscreen)
+                      window.document.webkitExitFullscreen();
+                    else if (window.document.msExitFullscreen)
+                      window.document.msExitFullscreen();
+                    break;
+                }
+                var isJotForm = e.origin.indexOf("jotform") > -1 ? true : false;
+                if (
+                  isJotForm &&
+                  "contentWindow" in iframe &&
+                  "postMessage" in iframe.contentWindow
+                ) {
+                  var urls = {
+                    docurl: encodeURIComponent(document.URL),
+                    referrer: encodeURIComponent(document.referrer),
+                  };
+                  iframe.contentWindow.postMessage(
+                    JSON.stringify({ type: "urls", value: urls }),
+                    "*"
+                  );
+                }
+              };
+              window.isPermitted = function (originUrl, whitelisted_domains) {
+                var url = document.createElement("a");
+                url.href = originUrl;
+                var hostname = url.hostname;
+                var result = false;
+                if (typeof hostname !== "undefined") {
+                  whitelisted_domains.forEach(function (element) {
+                    if (
+                      hostname.slice(-1 * element.length - 1) ===
+                        ".".concat(element) ||
+                      hostname === element
+                    ) {
+                      result = true;
+                    }
+                  });
+                  return result;
+                }
+              };
+              if (window.addEventListener) {
+                window.addEventListener("message", handleIFrameMessage, false);
+              } else if (window.attachEvent) {
+                window.attachEvent("onmessage", handleIFrameMessage);
+              }
+            </script>
+          </div>
+          <div class="modal-footer">
+            <!-- <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+      });
+    </script>
   </body>
 </html>
